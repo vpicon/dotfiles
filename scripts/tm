@@ -1,0 +1,41 @@
+#! /usr/bin/bash
+
+# Read all current open sessions in tmux
+declare -a sessions
+declare -i n=0
+
+if ( tmux list-sessions > /dev/null 2> /dev/null); then
+    for session in $(tmux list-sessions | cut -d':' -f1); do
+        sessions[$n]=$session
+        n+=1
+    done
+fi
+
+
+# Print all available sessions and a new session option
+printf "Available sessions:\n\n"
+
+for i in $(seq 0 $(( $n - 1 )) ); do
+    printf "     $i. ${sessions[$i]}\n"
+done
+
+printf "     $n. New Session\n"
+
+printf "\nSelect a session: "
+
+
+# Read user input and go to that session
+read selected_session
+
+if [[ $selected_session < 0 || $n < $selected_session ]]; then
+    echo "No such available session. Exiting."
+else
+    if [[ $selected_session == $n ]]; then
+        printf "Type name of new session: "
+        read new_session_name
+        tmux new-session -s "$new_session_name"
+    else
+        tmux attach -t ${sessions[$selected_session]}
+    fi
+
+fi
