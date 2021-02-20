@@ -122,6 +122,8 @@ fi
 alias ..="cd .."
 alias ...="cd /"
 
+alias tor="~/Software/tor-browser/tor-browser_en-US/start-tor-browser.desktop"
+
 alias eclipse="~/Software/Eclipse/eclipse/eclipse"
 
 # Set own directories to PATH
