@@ -1,0 +1,19 @@
+Color0: #262626
+Color1: #EF2929
+Color2: #82AF00
+Color3: #FF8700
+Color4: #3D80AF
+Color5: #75507B
+Color6: #84AC84
+Color7: #FFDCB9
+Color8: #8A8A8A
+Color9: #D75F5F
+Color10: #8AE234
+Color11: #FFAF00
+Color12: #729FCF
+Color13: #D787AF
+Color14: #84AB84
+Color15: #EEEEEC
+
+ColorText: #FFE4C9
+ColorBackground: #262626
