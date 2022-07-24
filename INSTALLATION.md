@@ -104,6 +104,12 @@ Install basics
 # pacman -S vim man-db man-pages texinfo
 ```
 
+Update all software and mirrors.
+```
+# pacman -Syyu
+```
+
+
 ### 3.2  Set localtime.
 ```
 # ln -sf /usr/share/zoneinfo/Europe/Madrid /etc/localtime
@@ -125,6 +131,19 @@ And install a network manager. We will use NetworkManager:
 ```
 # pacman -S networkmanager
 # systemctl enable NetworkManager
+```
+
+### 3.5 AUR
+We will need to install packages from the Arch User Repository (AUR), to do 
+so we will use an AUR package manager called [yay](https://github.com/Jguer/yay).
+We will install it in the `~/util` directory.
+
+```
+pacman -S --needed git base-devel
+mkdir util; cd util
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
 ```
 
 
