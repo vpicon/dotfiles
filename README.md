@@ -8,3 +8,4 @@ guide is given following the files:
 
 Other than the installation guide, all the configuration files are stored in this repository.
 - `config/`: contains the contents of the `$HOME/.config` directory in the target OS.
+- `fonts/`: contains the fonts used in the system, which must be stored in the `$HOME/.local/share/fonts` directory in the target OS.
