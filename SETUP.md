@@ -1,11 +1,10 @@
-# Installation Instructions
-This document follows step-by-step instructions to install arch-linux
-as it is on my setup. The following installation assumes a UEFI firmware
-machine.
+# System Setup
+This document gives initial setup steps as done in my machine.
+The following installation assumes a UEFI firmware board.
 
 This installation follows the [official arch install guide](https://wiki.archlinux.org/title/Installation_guide).
 
-Installation is done from the live bootable device environment.
+Installation is done from a live bootable device environment (USB).
 
 
 ## 1. Create File System
@@ -170,7 +169,5 @@ And add the user to the sudoers. In particular add the following line to the end
 vic ALL=(ALL) ALL
 ```
 
-
 ## Next Steps
-The following system setup is to add a terminal and window manager to the system.
-The steps are contained in the [SETUP.md](SETUP.md) file.
+The following configuration steps are described in the [CONFIGURATION](CONFIGURATION.md) guide.
