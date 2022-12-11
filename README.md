@@ -4,13 +4,13 @@ A preview of the installed system:
 
 A step-by-step installation guide is given below.
 
-# 1. Features
+## Features
 TODO
 
-# 2. Bindings and Usage
+## Bindings and Usage
 TODO 
 
-# 3. Installation
+## Installation
 1. **System Setup**: Described in the [SETUP](SETUP.md) guide.
 2. **Configuration**: Described in the [CONFIGURATION](CONFIGURATION.md) guide.
 3. **Ricing**: Installed by running the ricing script.
