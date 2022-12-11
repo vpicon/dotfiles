@@ -1,11 +1,20 @@
 # Arch Linux Configuration
-This repository contains the necessary to build my own versioning of arch. A step-by-step
-guide is given following the files:
+This repository contains the necessary to build my own personalization of arch. 
+A preview of the installed system:
 
-1. [INSTALLATION.md](INSTALLATION.md): Steps to install fresh arch on my pc.
-2. [SETUP.md](SETUP.md): Steps to set up basic functionality on the pc after a fresh install.
-3. [RICING.md](RICING.md): Steps to configure and personalize UI/UX of the system.
+A step-by-step installation guide is given below.
 
-Other than the installation guide, all the configuration files are stored in this repository.
-- `config/`: contains the contents of the `$HOME/.config` directory in the target OS.
-- `fonts/`: contains the fonts used in the system, which must be stored in the `$HOME/.local/share/fonts` directory in the target OS.
+# 1. Features
+TODO
+
+# 2. Bindings and Usage
+TODO 
+
+# 3. Installation
+1. **System Setup**: Described in the [SETUP](SETUP.md) guide.
+2. **Configuration**: Described in the [CONFIGURATION](CONFIGURATION.md) guide.
+3. **Ricing**: Installed by running the ricing script.
+    ```
+    $ bash scripts/rice.sh
+    $ reboot
+    ```
