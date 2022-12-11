@@ -1,5 +1,5 @@
-# System Setup
-This file consists of the configuration of the system post-installation.
+# Configuration
+This file consists of the system configuration post-installation.
 It is based on the [General recomendations](https://wiki.archlinux.org/title/General_recommendations) 
 article from the Arch installation documentation.
 
