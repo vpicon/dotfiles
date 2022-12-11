@@ -1,0 +1,1 @@
+exec_always feh --bg-scale $HOME/dotfiles/wallpapers/mountain.jpeg  # Background wallpaper

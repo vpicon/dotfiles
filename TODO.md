@@ -11,6 +11,7 @@
         [ ] Ricing
 [ ] System Setup
 [ ] Configuration
+    [ ] As bash script
 [ ] Ricing
     [ ] Polybar
     [ ] Terminal
