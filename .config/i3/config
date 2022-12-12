@@ -1,4 +1,5 @@
 # i3 config file (v4)
 # Check https://i3wm.org/docs/userguide.html for a complete reference.
 
+include ./config.d/bindings
 include ./config.d/exec
