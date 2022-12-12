@@ -1,4 +1,5 @@
-set $mod Mod1  # Alt key
+# Alt key as mod
+set $mod Mod1
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
